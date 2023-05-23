@@ -18,11 +18,8 @@ include(CMakePackageConfigHelpers)
 include(CMakeDependentOption)
 include(CheckCXXCompilerFlag)
 include(GNUInstallDirs)
-<<<<<<< HEAD
-=======
 include(CTest)
 
->>>>>>> 0e6e28d1a38224fc8172fae0109ea7f673c096db
 option(YAML_CPP_BUILD_CONTRIB "Enable yaml-cpp contrib in library" ON)
 option(YAML_CPP_BUILD_TOOLS "Enable parse tools" OFF)
 option(YAML_BUILD_SHARED_LIBS "Build yaml-cpp shared library" ${BUILD_SHARED_LIBS})
